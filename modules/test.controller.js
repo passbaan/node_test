@@ -6,7 +6,7 @@ const readDistances = () => {
     const file  =  fs.readFileSync(fileToRead);
     return JSON.parse(file);
 }
-
+/* A change here */
 /* enable log */
 const SHOW_DEBUG_LOG = true;
 /* Show log  */
